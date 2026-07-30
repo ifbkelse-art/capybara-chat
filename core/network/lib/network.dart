@@ -1,5 +1,5 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+library;
+
+export 'src/connectivity/network_service.dart';
+export 'src/connectivity/connectivity_service.dart';
+export 'src/models/network_status.dart';
