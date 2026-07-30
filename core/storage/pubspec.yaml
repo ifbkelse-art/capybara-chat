@@ -3,6 +3,7 @@ resolution: workspace
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
+publish_to: none
 
 environment:
   sdk: ^3.8.1
@@ -11,6 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  flutter_secure_storage: ^10.3.1
+  foundation:
+    path: ../foundation
 
 dev_dependencies:
   flutter_test:

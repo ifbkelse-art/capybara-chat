@@ -3,14 +3,19 @@ resolution: workspace
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
+publish_to: none
 
 environment:
   sdk: ^3.8.1
   flutter: ">=1.17.0"
 
 dependencies:
+  connectivity_plus: ^7.3.1
   flutter:
     sdk: flutter
+
+  foundation:
+    path: ../foundation
 
 dev_dependencies:
   flutter_test:
